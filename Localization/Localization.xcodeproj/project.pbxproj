@@ -14,6 +14,7 @@
 		C0ED3A70284FD8FC00DEAD08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0ED3A6E284FD8FC00DEAD08 /* LaunchScreen.storyboard */; };
 		C0ED3A79284FDC4A00DEAD08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0ED3A7B284FDC4A00DEAD08 /* Localizable.strings */; };
 		C0ED3A7E284FDDED00DEAD08 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = C0ED3A80284FDDED00DEAD08 /* Localizable.stringsdict */; };
+		C0ED3A86284FFD3400DEAD08 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED3A85284FFD3400DEAD08 /* String+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C0ED3A7F284FDDED00DEAD08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		C0ED3A81284FE36800DEAD08 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C0ED3A82284FE36800DEAD08 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		C0ED3A85284FFD3400DEAD08 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C0ED3A63284FD8F900DEAD08 /* AppDelegate.swift */,
 				C0ED3A65284FD8F900DEAD08 /* SceneDelegate.swift */,
 				C0ED3A67284FD8F900DEAD08 /* DemoViewController.swift */,
+				C0ED3A85284FFD3400DEAD08 /* String+.swift */,
 				C0ED3A7B284FDC4A00DEAD08 /* Localizable.strings */,
 				C0ED3A80284FDDED00DEAD08 /* Localizable.stringsdict */,
 				C0ED3A6C284FD8FC00DEAD08 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			files = (
 				C0ED3A68284FD8F900DEAD08 /* DemoViewController.swift in Sources */,
 				C0ED3A64284FD8F900DEAD08 /* AppDelegate.swift in Sources */,
+				C0ED3A86284FFD3400DEAD08 /* String+.swift in Sources */,
 				C0ED3A66284FD8F900DEAD08 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

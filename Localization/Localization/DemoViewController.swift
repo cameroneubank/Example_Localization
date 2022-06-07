@@ -99,16 +99,13 @@ final class DemoViewController: UIViewController {
     @objc
     private func configureSubviews() {
         // Standard Localization.
-        standardLocalizationLabel.text = NSLocalizedString("demo.standardLocalization.title",
-                                                           comment: "Hello World!")
+        standardLocalizationLabel.text = .localized("demo.standardLocalization.title")
         
         // Localization with parameters. No pluralization concerns.
-        parameterizedLocalizationLabel.text = String(format: NSLocalizedString("demo.parameterizeLocalization.title",
-                                                                               comment: "Hello %@! Welcome to the world!"), name)
+        parameterizedLocalizationLabel.text = .localized("demo.standardLocalization.title", args: name)
         
         // Localization with parameters. With pluralization concerns.
-        pluralizedParameterizedLocalizationLabel.text = String(format: NSLocalizedString("demo.pluralizedParameterizeLocalization.title",
-                                                                                         comment: "Hello %@! There are %d worlds!"), name, numberOfWorlds)
+        pluralizedParameterizedLocalizationLabel.text = .localized("demo.pluralizedParameterizeLocalization.title", args: name, numberOfWorlds)
     }
     
     // MARK: - Target Action
