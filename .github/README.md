@@ -11,15 +11,16 @@ You should **not** use `Strings` files for pluralized strings.
 ## Pluralized Localization
 Localizing strings with pluralization is a little more complex. `StringsDict` files are used for this. Similar to strings files, each locale or language the application supports should have its own `StringsDict` file. 
 In general, you should follow this cheat-sheet for the basic setup of a `StringsDict` file.
-![StringsDict Cheat Sheet](./images/stringsdict_cheatsheet)
+![StringsDict Cheat Sheet](./images/stringsdict_cheatsheet.png)
 
 ### Helpful links:
 - https://developer.apple.com/documentation/xcode/localizing-strings-that-contain-plurals
 
 ## English Example
 
-|---|---|---|
-|![English Example 1](./images/en1.png)|![English Example 2](./images/en2.png)|![English Example 3](./images/en3.png)|
+| --- | --- | --- |
+| ![English Example 1](./images/en1.png) | ![English Example 2](./images/en2.png) | ![English Example 3](./images/en3.png) |
   
 ## Spanish Example
-|![Spanish Example 1](./images/es1.png)|![Spanish Example 2](./images/es2.png)|![Spanish Example 3](./images/es3.png)|
+| --- | --- | --- |
+| ![Spanish Example 1](./images/es1.png) | ![Spanish Example 2](./images/es2.png) | ![Spanish Example 3](./images/es3.png) |
