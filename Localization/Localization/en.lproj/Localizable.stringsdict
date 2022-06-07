@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>demo.pluralizedParameterizeLocalization.title</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hello %@! There %#@worldsCount@!</string>
+		<key>worldsCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>are no worlds</string>
+			<key>one</key>
+			<string>is one world</string>
+			<key>other</key>
+			<string>are %d worlds</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

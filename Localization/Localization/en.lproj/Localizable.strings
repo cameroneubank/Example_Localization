@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Localization
+
+  Created by Cameron Eubank on 6/7/22.
+  
+*/
+
+"demo.standardLocalization.title" = "Hello world!";
+"demo.parameterizeLocalization.title" = "Hello %@! Welcome to the world!";
